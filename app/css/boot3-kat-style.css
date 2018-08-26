@@ -1,0 +1,41 @@
+.logo{
+    border-radius: 75px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 200px;
+    height: 100px;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+img {
+	padding-left: 0px;
+}
+
+#global {
+	height: 300px;
+	width: 200px;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+	justify-content: center;
+}
+#mensajes {
+	height: auto;
+
+}
+.texto {
+	padding:4px;
+	background:#fff;
+
+} 
+.no-gutters {
+ margin-right: 0;
+  margin-left: 0;
+}
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
